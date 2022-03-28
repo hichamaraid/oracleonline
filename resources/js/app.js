@@ -9,3 +9,7 @@ createInertiaApp({
       .mount(el)
   },
 })
+
+const app = createApp({});
+app.component('welcome', welcome);
+app.mount('#app');
